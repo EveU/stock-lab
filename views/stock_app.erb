@@ -1,0 +1,18 @@
+
+<form action='/stock_app' method='get'>
+  <label>Stock Code<input type='text' name='stock_code'/></label>
+  <button>Show me the money!</button>
+</form>
+
+<% if @stock_code %>
+<section>
+  <header>
+   
+  </header>
+    <p>Company Name: <%= @name %></p>  
+    <p>Stock Code: <%= @stock_code %></p>    
+    <hr/>
+    <p>The current price is <%= @last_trade %></p>   
+</section>
+<% end %>
+<!-- link to stock codes -->

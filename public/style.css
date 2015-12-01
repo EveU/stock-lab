@@ -1,0 +1,23 @@
+body {
+  background-image: url(dollar.jpg);
+  background-repeat: repeat-y;
+  background-color: #E6F8E0;
+}
+
+p {
+  background-color: #E6F8E0;
+  font-size: 25px;
+}
+
+body p {
+  display: inline-block;
+  padding: 0, 25px;
+  border: 0, 100px;
+
+}
+
+form label {
+  background-color: #E6F8E0;
+  font-size: 25px;
+
+}
